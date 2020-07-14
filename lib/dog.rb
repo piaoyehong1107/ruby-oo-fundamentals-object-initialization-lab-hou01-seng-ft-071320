@@ -2,7 +2,7 @@ class Person
   def initi (breed)
     @breed = breed
   end
-  def breed=(breed=)
+  def breed=(breed="Mutt")
     @breed=breed
   end
   def breed
