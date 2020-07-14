@@ -1,5 +1,5 @@
 class Person 
-  def initi (dog_name)
+  def initialize (dog_name)
     @name = dog_name
   end
   def name=(name)
@@ -8,7 +8,7 @@ class Person
   def name
     @name
   end  
-  def initi (breed)
+  def initialize (breed)
     @breed = breed
   end
   def breed=(breed)
